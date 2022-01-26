@@ -1,0 +1,19 @@
+<footer>
+	<div class="pull-right">
+		Powered by KeyPoint Solutions, SL
+	</div>
+<div class="clearfix"></div>
+</footer>
+<!-- /footer content -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		var height = $(window).height() - 60;
+		var menuheight = $('#menu_esq').height();
+		if(height > menuheight){
+			$('#col_ppl').height(height);
+		}else{
+			$('#col_ppl').height(menuheight);
+		}
+		
+	});
+</script>

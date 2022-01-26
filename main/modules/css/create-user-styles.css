@@ -1,0 +1,29 @@
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+.error__p{
+    display: none;
+}
+
+.error__p-active{
+    display: block;
+    color: #bb2929;
+}
+
+.input-incorrecto{
+
+    transition-duration: .3s;
+    background-image: linear-gradient(#bb2929, #bb2929), linear-gradient(#e9ecef, #e9ecef) !important;
+
+}
+
+.formulario__grupo-incorrecto{
+    color: #bb2929;
+    
+}

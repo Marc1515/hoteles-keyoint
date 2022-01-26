@@ -1,0 +1,49 @@
+.bounceInRight{
+    margin-top: 3rem;
+    position: absolute;
+    z-index: 5;
+
+}
+
+.iconos{
+    size: 40rem;
+}
+
+.eyeModal .close{
+    opacity: 1 !important;
+    outline: none;
+}
+
+.eyeModal .close i:hover{
+    opacity: 0.5 !important;
+    padding: 0 !important;
+    }
+
+.eyeModal .close span{
+    opacity: 0.5 !important;
+}
+
+@media (max-width: 400px) {
+    .topBoxTools {
+        
+        display: flex !important;
+        
+    }
+}
+
+.ocultarColumna {
+    display: none;
+}
+
+.container-fluid::-webkit-scrollbar-thumb {
+
+    background-color: blue;
+
+}
+
+.tablaDisponiblidad tr td:nth-child(2), .tablaDisponiblidad th:nth-child(2) {
+
+    display: none;
+    
+}
+

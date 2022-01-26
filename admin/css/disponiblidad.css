@@ -1,0 +1,3 @@
+.tablaDisponiblidad tr td:nth-child(2), .tablaDisponiblidad th:nth-child(2) {
+    display: none;
+}

@@ -1,0 +1,166 @@
+// Theme settings.
+/*******************
+Fixed -sidebar
+******************/
+
+.fixed-sidebar {
+    .left-sidebar {
+        position: fixed;
+    }
+
+    &.mini-sidebar {
+        .navbar-collapse,
+        .footer {
+            margin-right: 70px;
+        }
+
+    }
+}
+
+@media(max-width:767px) {
+    .fixed-sidebar.mini-sidebar {
+        .navbar-header {
+            position: relative;
+        }
+        .navbar-collapse {
+            margin-right: 0px;
+        }
+    }
+}
+/*******************
+Fixed -Header
+******************/
+.fixed-header {
+    .topbar {
+        position: fixed;
+        width: 100%;
+    }
+    .page-wrapper {
+        padding-top: 67px;
+    }
+}
+
+.fixed-layout {
+    .left-sidebar,
+    .topbar {
+        position: fixed;
+    }
+    .topbar {
+        width: 100%;
+    }
+    .page-wrapper {
+        padding-top: 67px;
+    }
+}
+
+/*******************
+Boxed
+******************/
+.boxed #main-wrapper {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    .sidebar-footer {
+        position: absolute;
+    }
+    .topbar {
+        max-width: 1300px;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+.boxed.fixed-layout .left-sidebar {
+    position: absolute;
+}
+
+/*******************
+Single Column
+******************/
+.single-column {
+    .left-sidebar {
+        display: none;
+    }
+    .navbar-header {
+        margin-right: 0px;
+    }
+    .page-wrapper {
+        margin-right: 0px!important;
+    }
+}
+/*******************
+Mini sidebar
+******************/
+
+@media(min-width:769px) {
+    .left-sidebar:hover {
+        right: 0px;
+    }
+    .navbar-header {
+        margin-right: 60px;
+        flex-shrink: 0;
+        .navbar-brand {
+            padding-top: 0px;
+        }
+    }
+    .lock-nav {
+        .left-sidebar {
+            right: 0px;
+            width: 220px;
+        }
+        .page-wrapper,
+        .footer {
+            margin-right: 220px;
+        }
+        .topbar {
+            padding-right: 220px;
+            .navbar-header {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .show-sidebar {
+        .left-sidebar {
+            right: 0px;
+        }
+    }
+    .left-sidebar {
+        right: -260px;
+    }
+}
+
+/*******************
+Logo center
+******************/
+.logo-center {
+    .top-navbar {
+        .navbar-header {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            a {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media(min-width:769px) {
+    .logo-center {
+        .top-navbar {
+            margin-right: 60px;
+        }
+        &.lock-nav {
+            .top-navbar {
+                margin-right: 0px;
+            }
+        }
+    }
+}

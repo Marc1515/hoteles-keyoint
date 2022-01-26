@@ -1,0 +1,18 @@
+.ocultarColumna {
+    display: none;
+}
+
+
+.zoomDash {
+
+    transition: 300ms;
+
+}
+
+
+.zoomDash:hover {
+
+    transform: scale(1.4) !important;
+    transition: 300ms;
+
+}

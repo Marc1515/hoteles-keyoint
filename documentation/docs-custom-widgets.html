@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Elegant admin Template - The Ultimate Multipurpose admin template</title>
+    <!-- This page css -->
+    <!-- Custom CSS -->
+    <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../main/dist/css/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="highlights/highlight.min.css">
+	<link href="../main/dist/css/pages/widget-page.css" rel="stylesheet">
+	<!-- Custom CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+	<!-- Custom CSS -->
+	<style>
+		.font-18 {
+		    font-size: 18px !important;
+		}
+	</style>
+</head>
+
+<body class="skin-default-dark fixed-layout">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Elegant Admin</p>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->    
+                         <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- This is  -->
+                        <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li>
+                        <li class="nav-item"> <a class="nav-link waves-effect waves-light" href="documentation.html">Documentation</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <div class="d-flex no-block nav-text-box align-items-center">
+                <span><img src="../assets/images/logo-icon.png" alt="elegant admin template"></span>
+                <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a>
+                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+            </div>
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="font-14 font-medium">-- Getting Started</li>
+                        <li> <a class="waves-effect waves-dark" href="documentation.html"
+                        aria-expanded="false"><i class="icon-chart font-18"></i>
+                            <span class="hide-menu">Introduction</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="docs-start.html"
+                        aria-expanded="false"><i class="ti-notepad font-18"></i>
+                            <span class="hide-menu">Gettings Started</span></a>
+                        </li>
+                        <li class="font-14 font-medium border-top pt-3 border-dark">-- Customization</li>
+                        <li> <a class="waves-effect waves-dark" href="docs-theme-options.html"
+                        aria-expanded="false"><i class="icon-drawar font-18"></i>
+                            <span class="hide-menu">Theme Options</span></a>
+                        </li>
+                        <li class="font-14 font-medium border-top pt-3 border-dark">-- UI Components</li>
+                        <li> <a class="waves-effect waves-dark has-arrow" href="javascript:void(0)"
+                                aria-expanded="false"><i class="icon-grid font-18"></i><span
+                                    class="hide-menu">Bootstrap
+                                </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li><a href="docs-ui-buttons.html"><i class="icon-drop"></i><span class="hide-menu"> Buttons </span></a></li>
+                                <li><a href="docs-ui-modals.html"><i class="icon-drop"></i><span class="hide-menu"> Modals </span></a></li>
+                                <li><a href="docs-ui-tabs.html"><i class="icon-drop"></i><span class="hide-menu"> Tabs </span></a></li>
+                                <li><a href="docs-ui-tooltip-popover.html"><i class="icon-drop"></i><span class="hide-menu"> Tooltip & Popover </span></a></li>
+                                <li><a href="docs-ui-notification.html"><i class="icon-drop"></i><span class="hide-menu"> Notification </span></a></li>
+                                <li><a href="docs-ui-progressbar.html"><i class="icon-drop"></i><span class="hide-menu"> Progressbar </span></a></li>
+                                <li><a href="docs-ui-typography.html"><i class="icon-drop"></i><span class="hide-menu"> Typography </span></a></li>
+                                <li><a href="docs-ui-bootstrapui.html"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap UI </span></a></li>
+                                <li><a href="docs-ui-breadcrumb.html"><i class="icon-drop"></i><span class="hide-menu"> Breadcrumb </span></a></li>
+                                <li><a href="docs-ui-listmedia.html"><i class="icon-drop"></i><span class="hide-menu"> List Media </span></a></li>
+                                <li><a href="docs-ui-grid.html"><i class="icon-drop"></i><span class="hide-menu"> Grid </span></a></li>
+                                <li><a href="docs-ui-carousel.html"><i class="icon-drop"></i><span class="hide-menu"> Carousel </span></a></li>
+                                <li><a href="docs-ui-scrollspy.html"><i class="icon-drop"></i><span class="hide-menu"> Scrollspy </span></a></li>
+                                <li><a href="docs-ui-toasts.html"><i class="icon-drop"></i><span class="hide-menu"> Toasts </span></a></li>
+                                <li><a href="docs-ui-spinner.html"><i class="icon-drop"></i><span class="hide-menu"> Spinner </span></a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="waves-effect waves-dark has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="icon-note font-18"></i><span class="hide-menu">Customized</span></a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li><a href="docs-custom-datatables.html"><i class="icon-drop"></i><span class="hide-menu"> Datatables</span></a></li>
+                                <li><a href="docs-custom-table-footable.html"><i class="icon-drop"></i><span class="hide-menu"> Footable Table</span></a></li>
+                                <li><a href="docs-custom-table-bootstrap.html"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap Table</span></a></li>
+                                <li><a href="docs-custom-cards.html"><i class="icon-drop"></i><span class="hide-menu"> Cards</span></a></li>
+                                <li><a href="docs-custom-widgets.html"><i class="icon-drop"></i><span class="hide-menu"> Widgets</span></a></li>
+                                <li><a href="docs-custom-chart-chartjs.html"><i class="icon-drop"></i><span class="hide-menu"> ChartJs</span></a></li>
+                                <li><a href="docs-custom-chart-chartist.html"><i class="icon-drop"></i><span class="hide-menu"> Chartist</span></a></li>
+                                <li><a href="docs-custom-chart-echart.html"><i class="icon-drop"></i><span class="hide-menu"> Echart</span></a></li>
+                                <li><a href="docs-custom-colorpicker.html"><i class="icon-drop"></i><span class="hide-menu"> Colorpicker</span></a></li>
+                                <li><a href="docs-custom-material-datepicker.html"><i class="icon-drop"></i><span class="hide-menu"> Material Datepicker</span></a></li>
+                                <li><a href="docs-custom-touchspin.html"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap Touchspin</span></a></li>
+                                <li><a href="docs-custom-multiselect.html"><i class="icon-drop"></i><span class="hide-menu"> Multiselect</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="font-14 font-medium border-top pt-3 border-dark">-- Extra</li>
+                        <li> <a class="waves-effect waves-dark" href="docs-third-party.html"
+                        aria-expanded="false"><i class="icon-book-open font-18"></i>
+                            <span class="hide-menu">Third Party Plugins</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="page-content container-fluid">
+	            <!-- ============================================================== -->
+	            <!-- Bread crumb and right sidebar toggle -->
+	            <!-- ============================================================== -->
+	            <div class="row page-titles">
+	                <div class="col-md-5 align-self-center">
+	                    <h4 class="text-themecolor">Widgets</h4>
+	                </div>
+	                <div class="col-md-7 align-self-center">
+	                    <ol class="breadcrumb float-right">
+	                        <li class="breadcrumb-item"><a href="javascript:void(0)">Elegant</a></li>
+	                        <li class="breadcrumb-item text-info font-medium">Widgets</li>
+	                    </ol>
+	                </div>
+	            </div>
+	            <!-- ============================================================== -->
+	            <!-- End Bread crumb and right sidebar toggle -->
+	            <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card overflow-hidden">
+							<div class="card-body border-bottom">
+								<h4 class="card-title mb-0">Recent Comments</h4>
+							</div>
+							<div class="row justify-content-center bg-light p-5">
+								<div class="col-md-6">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<div class="comment-widgets m-b-20">
+					                            <!-- Comment Row -->
+					                            <div class="d-flex flex-row comment-row">
+					                                <div class="p-2"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></div>
+					                                <div class="comment-text w-100">
+					                                    <h5>James Anderson</h5>
+					                                    <div class="comment-footer">
+					                                        <span class="date">April 14, 2016</span>
+					                                        <span class="label label-info">Pending</span> <span class="action-icons">
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-pencil-circle"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-checkbox-marked-circle"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-heart"></i></a>    
+					                                                </span>
+					                                    </div>
+					                                    <p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+					                                </div>
+					                            </div>
+					                            <!-- Comment Row -->
+					                            <div class="d-flex flex-row comment-row ">
+					                                <div class="p-2"><span class="round"><img src="../assets/images/users/2.jpg" alt="user" width="50"></span></div>
+					                                <div class="comment-text active w-100">
+					                                    <h5>Michael Jorden</h5>
+					                                    <div class="comment-footer">
+					                                        <span class="date">April 14, 2016</span>
+					                                        <span class="label label-success">Approved</span> <span class="action-icons active">
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-pencil-circle"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-checkbox-marked-circle text-success"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-heart text-danger"></i></a>    
+					                                                </span>
+					                                    </div>
+					                                    <p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
+					                                </div>
+					                            </div>
+					                            <!-- Comment Row -->
+					                            <div class="d-flex flex-row comment-row">
+					                                <div class="p-2"><span class="round"><img src="../assets/images/users/3.jpg" alt="user" width="50"></span></div>
+					                                <div class="comment-text w-100">
+					                                    <h5>Johnathan Doeting</h5>
+					                                    <div class="comment-footer">
+					                                        <span class="date">April 14, 2016</span>
+					                                        <span class="label label-danger">Rejected</span> <span class="action-icons">
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-pencil-circle"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-checkbox-marked-circle"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-heart"></i></a>    
+					                                                </span>
+					                                    </div>
+					                                    <p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+					                                </div>
+					                            </div>
+					                            <!-- Comment Row -->
+					                            <div class="d-flex flex-row comment-row">
+					                                <div class="p-2"><span class="round"><img src="../assets/images/users/4.jpg" alt="user" width="50"></span></div>
+					                                <div class="comment-text w-100">
+					                                    <h5>James Anderson</h5>
+					                                    <div class="comment-footer">
+					                                        <span class="date">April 14, 2016</span>
+					                                        <span class="label label-info">Pending</span> <span class="action-icons">
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-pencil-circle"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-checkbox-marked-circle"></i></a>
+					                                                    <a href="javascript:void(0)"><i class="mdi mdi-heart"></i></a>    
+					                                                </span>
+					                                    </div>
+					                                    <p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
+					                                </div>
+					                            </div>
+					                        </div>
+										</div>	
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here:</h4>
+								<hr>
+								<pre class="highlight html shadow-none">
+									<code class="shadow-sm px-4" style="height: 300px;">
+&lt;div class=&quot;comment-widgets m-b-20&quot;&gt;
+    &lt;!-- Comment Row --&gt;
+    &lt;div class=&quot;d-flex flex-row comment-row&quot;&gt;
+        &lt;div class=&quot;p-2&quot;&gt;&lt;span class=&quot;round&quot;&gt;&lt;img src=&quot;../assets/images/users/1.jpg&quot; alt=&quot;user&quot; width=&quot;50&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;comment-text w-100&quot;&gt;
+            &lt;h5&gt;James Anderson&lt;/h5&gt;
+            &lt;div class=&quot;comment-footer&quot;&gt;
+                &lt;span class=&quot;date&quot;&gt;April 14, 2016&lt;/span&gt;
+                &lt;span class=&quot;label label-info&quot;&gt;Pending&lt;/span&gt; &lt;span class=&quot;action-icons&quot;&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-pencil-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-checkbox-marked-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-heart&quot;&gt;&lt;/i&gt;&lt;/a&gt;    
+                        &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class=&quot;m-b-5 m-t-10&quot;&gt;Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Comment Row --&gt;
+    &lt;div class=&quot;d-flex flex-row comment-row &quot;&gt;
+        &lt;div class=&quot;p-2&quot;&gt;&lt;span class=&quot;round&quot;&gt;&lt;img src=&quot;../assets/images/users/2.jpg&quot; alt=&quot;user&quot; width=&quot;50&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;comment-text active w-100&quot;&gt;
+            &lt;h5&gt;Michael Jorden&lt;/h5&gt;
+            &lt;div class=&quot;comment-footer&quot;&gt;
+                &lt;span class=&quot;date&quot;&gt;April 14, 2016&lt;/span&gt;
+                &lt;span class=&quot;label label-success&quot;&gt;Approved&lt;/span&gt; &lt;span class=&quot;action-icons active&quot;&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-pencil-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-checkbox-marked-circle text-success&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-heart text-danger&quot;&gt;&lt;/i&gt;&lt;/a&gt;    
+                        &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class=&quot;m-b-5 m-t-10&quot;&gt;Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Comment Row --&gt;
+    &lt;div class=&quot;d-flex flex-row comment-row&quot;&gt;
+        &lt;div class=&quot;p-2&quot;&gt;&lt;span class=&quot;round&quot;&gt;&lt;img src=&quot;../assets/images/users/3.jpg&quot; alt=&quot;user&quot; width=&quot;50&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;comment-text w-100&quot;&gt;
+            &lt;h5&gt;Johnathan Doeting&lt;/h5&gt;
+            &lt;div class=&quot;comment-footer&quot;&gt;
+                &lt;span class=&quot;date&quot;&gt;April 14, 2016&lt;/span&gt;
+                &lt;span class=&quot;label label-danger&quot;&gt;Rejected&lt;/span&gt; &lt;span class=&quot;action-icons&quot;&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-pencil-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-checkbox-marked-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-heart&quot;&gt;&lt;/i&gt;&lt;/a&gt;    
+                        &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class=&quot;m-b-5 m-t-10&quot;&gt;Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Comment Row --&gt;
+    &lt;div class=&quot;d-flex flex-row comment-row&quot;&gt;
+        &lt;div class=&quot;p-2&quot;&gt;&lt;span class=&quot;round&quot;&gt;&lt;img src=&quot;../assets/images/users/4.jpg&quot; alt=&quot;user&quot; width=&quot;50&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;comment-text w-100&quot;&gt;
+            &lt;h5&gt;James Anderson&lt;/h5&gt;
+            &lt;div class=&quot;comment-footer&quot;&gt;
+                &lt;span class=&quot;date&quot;&gt;April 14, 2016&lt;/span&gt;
+                &lt;span class=&quot;label label-info&quot;&gt;Pending&lt;/span&gt; &lt;span class=&quot;action-icons&quot;&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-pencil-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-checkbox-marked-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0)&quot;&gt;&lt;i class=&quot;mdi mdi-heart&quot;&gt;&lt;/i&gt;&lt;/a&gt;    
+                        &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class=&quot;m-b-5 m-t-10&quot;&gt;Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title">Recent Message</h4>
+							</div>
+							<div class="row justify-content-center bg-light p-5 mt-4">
+								<div class="col-md-6">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<div class="card shadow mb-0">
+						                        <div class="card-body">
+						                            <div class="message-box">
+						                                <div class="message-widget message-scroll">
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Pavan kumar</h5> <span class="mail-desc">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been.</span> <span class="time">9:30 AM</span> </div>
+						                                    </a>
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
+						                                    </a>
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <span class="round">A</span> <span class="profile-status away float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Arijit Sinh</h5> <span class="mail-desc">Simply dummy text of the printing and typesetting industry.</span> <span class="time">9:08 AM</span> </div>
+						                                    </a>
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
+						                                    </a>
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Pavan kumar</h5> <span class="mail-desc">Welcome to the Elite Admin</span> <span class="time">9:30 AM</span> </div>
+						                                    </a>
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
+						                                    </a>
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <img src="../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
+						                                    </a>
+						                                    <!-- Message -->
+						                                    <a href="javascript:void(0)">
+						                                        <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline float-right"></span> </div>
+						                                        <div class="mail-contnet">
+						                                            <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
+						                                    </a>
+						                                </div>
+						                            </div>
+						                        </div>
+						                    </div>
+										</div>	
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here</h4>
+								<hr>
+								<pre class="highlight html shadow-none shadow-none">
+									<code class="px-4" style="height: 300px;">
+&lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;button class=&quot;float-right btn btn-sm btn-rounded btn-success&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;Add Task&lt;/button&gt;
+        &lt;h4 class=&quot;card-title&quot;&gt;To Do list&lt;/h4&gt;
+        &lt;div class=&quot;to-do-widget m-t-20&quot;&gt;
+            &lt;!-- .modal for add task --&gt;
+            &lt;div class=&quot;modal fade&quot; id=&quot;myModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-hidden=&quot;true&quot;&gt;
+                &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+                    &lt;div class=&quot;modal-content&quot;&gt;
+                        &lt;div class=&quot;modal-header&quot;&gt;
+                            &lt;h4 class=&quot;modal-title&quot;&gt;Add Task&lt;/h4&gt;
+                            &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+                                &lt;span aria-hidden=&quot;true&quot;&gt;&times;&lt;/span&gt;
+                            &lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;modal-body&quot;&gt;
+                            &lt;form&gt;
+                                &lt;div class=&quot;form-group&quot;&gt;
+                                    &lt;label&gt;Name&lt;/label&gt;
+                                    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Enter Your Name&quot;&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;form-group&quot;&gt;
+                                    &lt;label&gt;Email address&lt;/label&gt;
+                                    &lt;input type=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Enter email&quot;&gt;
+                                &lt;/div&gt;
+                            &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;modal-footer&quot;&gt;
+                            &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+                            &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot; data-dismiss=&quot;modal&quot;&gt;Submit&lt;/button&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;!-- /.modal-content --&gt;
+                &lt;/div&gt;
+                &lt;!-- /.modal-dialog --&gt;
+            &lt;/div&gt;
+            &lt;!-- /.modal --&gt;
+            &lt;ul class=&quot;list-task todo-list list-group m-b-0&quot; data-role=&quot;tasklist&quot;&gt;
+                &lt;li class=&quot;list-group-item&quot; data-role=&quot;task&quot;&gt;
+                    &lt;div class=&quot;checkbox checkbox-info&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;inputSchedule&quot; name=&quot;inputCheckboxesSchedule&quot;&gt;
+                        &lt;label for=&quot;inputSchedule&quot; class=&quot;&quot;&gt; &lt;span&gt;Schedule meeting with&lt;/span&gt; &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;ul class=&quot;assignedto&quot;&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/1.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Steave&quot;&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/2.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Jessica&quot;&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/3.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Priyanka&quot;&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/4.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Selina&quot;&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-group-item&quot; data-role=&quot;task&quot;&gt;
+                    &lt;div class=&quot;checkbox checkbox-info&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;inputCall&quot; name=&quot;inputCheckboxesCall&quot;&gt;
+                        &lt;label for=&quot;inputCall&quot; class=&quot;&quot;&gt; &lt;span&gt;Give Purchase report to&lt;/span&gt; &lt;span class=&quot;label label-light-danger&quot;&gt;Today&lt;/span&gt; &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;ul class=&quot;assignedto&quot;&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/3.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Priyanka&quot;&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/4.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Selina&quot;&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-group-item&quot; data-role=&quot;task&quot;&gt;
+                    &lt;div class=&quot;checkbox checkbox-info&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;inputBook&quot; name=&quot;inputCheckboxesBook&quot;&gt;
+                        &lt;label for=&quot;inputBook&quot; class=&quot;&quot;&gt; &lt;span&gt;Book flight for holiday&lt;/span&gt; &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;item-date&quot;&gt; 26 jun 2017&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-group-item&quot; data-role=&quot;task&quot;&gt;
+                    &lt;div class=&quot;checkbox checkbox-info&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;inputForward&quot; name=&quot;inputCheckboxesForward&quot;&gt;
+                        &lt;label for=&quot;inputForward&quot; class=&quot;&quot;&gt; &lt;span&gt;Forward all tasks&lt;/span&gt; &lt;span class=&quot;label label-light-warning&quot;&gt;2 weeks&lt;/span&gt; &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;item-date&quot;&gt; 26 jun 2017&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-group-item&quot; data-role=&quot;task&quot;&gt;
+                    &lt;div class=&quot;checkbox checkbox-info&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;inputRecieve&quot; name=&quot;inputCheckboxesRecieve&quot;&gt;
+                        &lt;label for=&quot;inputRecieve&quot; class=&quot;&quot;&gt; &lt;span&gt;Recieve shipment&lt;/span&gt; &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;item-date&quot;&gt; 26 jun 2017&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-group-item&quot; data-role=&quot;task&quot;&gt;
+                    &lt;div class=&quot;checkbox checkbox-info&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;inputpayment&quot; name=&quot;inputCheckboxespayment&quot;&gt;
+                        &lt;label for=&quot;inputpayment&quot; class=&quot;&quot;&gt; &lt;span&gt;Send payment today&lt;/span&gt; &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;item-date&quot;&gt; 26 jun 2017&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-group-item&quot; data-role=&quot;task&quot;&gt;
+                    &lt;div class=&quot;checkbox checkbox-info&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;inputForward2&quot; name=&quot;inputCheckboxesd&quot;&gt;
+                        &lt;label for=&quot;inputForward2&quot; class=&quot;&quot;&gt; &lt;span&gt;Important tasks&lt;/span&gt; &lt;span class=&quot;label label-light-success&quot;&gt;2 weeks&lt;/span&gt; &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;ul class=&quot;assignedto&quot;&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/1.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Assign to Steave&quot;&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/2.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Assign to Jessica&quot;&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;img src=&quot;../assets/images/users/4.jpg&quot; alt=&quot;user&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;&quot; data-original-title=&quot;Assign to Selina&quot;&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title">Profile Card</h4>
+							</div>
+							<div class="row justify-content-center bg-light p-5 mt-4">
+								<div class="col-md-5">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<div class="card">
+						                        <div class="card-body">
+						                            <div class="d-flex flex-row">
+						                                <div class=""><img src="../assets/images/users/1.jpg" alt="user" class="img-circle" width="100" /></div>
+						                                <div class="p-l-20">
+						                                    <h3 class="font-medium">Daniel Kristeen</h3>
+						                                    <h6>UIUX Designer</h6>
+						                                    <button class="btn btn-success"><i class="ti-plus"></i> Follow</button>
+						                                </div>
+						                            </div>
+						                            <div class="row m-t-40">
+						                                <div class="col b-r text-center">
+						                                    <h2 class="font-light">14</h2>
+						                                    <h6>Photos</h6></div>
+						                                <div class="col b-r text-center">
+						                                    <h2 class="font-light">54</h2>
+						                                    <h6>Videos</h6></div>
+						                                <div class="col text-center">
+						                                    <h2 class="font-light">145</h2>
+						                                    <h6>Tasks</h6></div>
+						                            </div>
+						                        </div>
+						                        <div>
+						                            <hr>
+						                        </div>
+						                        <div class="card-body">
+						                            <p class="text-center aboutscroll">
+						                                Lorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididunt adipisicing elit, sed do eiusmod tempor incididunLorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididuntt
+						                            </p>
+						                            <ul class="list-icons d-flex flex-item text-center p-t-10">
+						                                <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="Website"><i class="fa fa-globe font-20"></i></a></li>
+						                                <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="twitter"><i class="fab fa-twitter font-20"></i></a></li>
+						                                <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-square font-20"></i></a></li>
+						                                <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="Youtube"><i class="fab fa-youtube font-20"></i></a></li>
+						                                <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="Linkd-in"><i class="fab fa-linkedin font-20"></i></a></li>
+						                            </ul>
+						                        </div>
+						                    </div>
+										</div>	
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here</h4>
+								<hr>
+								<pre class="highlight html shadow-none">
+									<code class="shadow-sm px-4" style="height: 300px;">
+&lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;d-flex flex-row&quot;&gt;
+            &lt;div class=&quot;&quot;&gt;&lt;img src=&quot;../assets/images/users/1.jpg&quot; alt=&quot;user&quot; class=&quot;img-circle&quot; width=&quot;100&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;p-l-20&quot;&gt;
+                &lt;h3 class=&quot;font-medium&quot;&gt;Daniel Kristeen&lt;/h3&gt;
+                &lt;h6&gt;UIUX Designer&lt;/h6&gt;
+                &lt;button class=&quot;btn btn-success&quot;&gt;&lt;i class=&quot;ti-plus&quot;&gt;&lt;/i&gt; Follow&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row m-t-40&quot;&gt;
+            &lt;div class=&quot;col b-r text-center&quot;&gt;
+                &lt;h2 class=&quot;font-light&quot;&gt;14&lt;/h2&gt;
+                &lt;h6&gt;Photos&lt;/h6&gt;&lt;/div&gt;
+            &lt;div class=&quot;col b-r text-center&quot;&gt;
+                &lt;h2 class=&quot;font-light&quot;&gt;54&lt;/h2&gt;
+                &lt;h6&gt;Videos&lt;/h6&gt;&lt;/div&gt;
+            &lt;div class=&quot;col text-center&quot;&gt;
+                &lt;h2 class=&quot;font-light&quot;&gt;145&lt;/h2&gt;
+                &lt;h6&gt;Tasks&lt;/h6&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;hr&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;p class=&quot;text-center aboutscroll&quot;&gt;
+            Lorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididunt adipisicing elit, sed do eiusmod tempor incididunLorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididuntt
+        &lt;/p&gt;
+        &lt;ul class=&quot;list-icons d-flex flex-item text-center p-t-10&quot;&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot; data-toggle=&quot;tooltip&quot; title=&quot;Website&quot;&gt;&lt;i class=&quot;fa fa-globe font-20&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot; data-toggle=&quot;tooltip&quot; title=&quot;twitter&quot;&gt;&lt;i class=&quot;fab fa-twitter font-20&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot; data-toggle=&quot;tooltip&quot; title=&quot;Facebook&quot;&gt;&lt;i class=&quot;fab fa-facebook-square font-20&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot; data-toggle=&quot;tooltip&quot; title=&quot;Youtube&quot;&gt;&lt;i class=&quot;fab fa-youtube font-20&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot; data-toggle=&quot;tooltip&quot; title=&quot;Linkd-in&quot;&gt;&lt;i class=&quot;fab fa-linkedin font-20&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+						                    &lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title">Weather Report</h4>
+							</div>
+							<div class="row justify-content-center bg-light p-5 mt-4">
+								<div class="col-md-6">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<div class="card mb-0">
+						                        <div class="card-body">
+						                            <div class="d-flex no-block align-items-center">
+						                                <h4 class="card-title">Weather Report</h4>
+						                                <div class="ml-auto">
+						                                    <select class="custom-select">
+						                                        <option selected="">Today</option>
+						                                        <option value="1">Weekly</option>
+						                                    </select>
+						                                </div>
+						                            </div>
+						                            <div class="d-flex align-items-center flex-row m-t-30">
+						                                <div class="p-2 display-5 text-info"><i class="wi wi-day-showers"></i> <span>73<sup>°</sup></span></div>
+						                                <div class="p-2">
+						                                    <h3 class="m-b-0">Saturday</h3><small>Ahmedabad, India</small></div>
+						                            </div>
+						                            <table class="table no-border">
+						                                <tbody>
+						                                    <tr>
+						                                        <td>Wind</td>
+						                                        <td class="font-medium">ESE 17 mph</td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>Humidity</td>
+						                                        <td class="font-medium">83%</td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>Pressure</td>
+						                                        <td class="font-medium">28.56 in</td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>Cloud Cover</td>
+						                                        <td class="font-medium">78%</td>
+						                                    </tr>
+						                                    <tr>
+						                                        <td>Ceiling</td>
+						                                        <td class="font-medium">25760 ft</td>
+						                                    </tr>
+						                                </tbody>
+						                            </table>
+						                            <hr>
+						                            <ul class="list-unstyled row text-center city-weather-days">
+						                                <li class="col"><i class="wi wi-day-sunny"></i><span>09:30</span>
+						                                    <h3>70<sup>°</sup></h3></li>
+						                                <li class="col"><i class="wi wi-day-cloudy"></i><span>11:30</span>
+						                                    <h3>72<sup>°</sup></h3></li>
+						                                <li class="col"><i class="wi wi-day-hail"></i><span>13:30</span>
+						                                    <h3>75<sup>°</sup></h3></li>
+						                                <li class="col"><i class="wi wi-day-sprinkle"></i><span>15:30</span>
+						                                    <h3>76<sup>°</sup></h3></li>
+						                            </ul>
+						                        </div>
+						                    </div>
+										</div>	
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here</h4>
+								<hr>
+								<pre class="highlight html shadow-none">
+									<code class="shadow-sm px-4" style="height: 300px;">
+&lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+            &lt;h4 class=&quot;card-title&quot;&gt;Weather Report&lt;/h4&gt;
+            &lt;div class=&quot;ml-auto&quot;&gt;
+                &lt;select class=&quot;custom-select&quot;&gt;
+                    &lt;option selected=&quot;&quot;&gt;Today&lt;/option&gt;
+                    &lt;option value=&quot;1&quot;&gt;Weekly&lt;/option&gt;
+                &lt;/select&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;d-flex align-items-center flex-row m-t-30&quot;&gt;
+            &lt;div class=&quot;p-2 display-5 text-info&quot;&gt;&lt;i class=&quot;wi wi-day-showers&quot;&gt;&lt;/i&gt; &lt;span&gt;73&lt;sup&gt;&deg;&lt;/sup&gt;&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;p-2&quot;&gt;
+                &lt;h3 class=&quot;m-b-0&quot;&gt;Saturday&lt;/h3&gt;&lt;small&gt;Ahmedabad, India&lt;/small&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;table class=&quot;table no-border&quot;&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Wind&lt;/td&gt;
+                    &lt;td class=&quot;font-medium&quot;&gt;ESE 17 mph&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Humidity&lt;/td&gt;
+                    &lt;td class=&quot;font-medium&quot;&gt;83%&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Pressure&lt;/td&gt;
+                    &lt;td class=&quot;font-medium&quot;&gt;28.56 in&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Cloud Cover&lt;/td&gt;
+                    &lt;td class=&quot;font-medium&quot;&gt;78%&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Ceiling&lt;/td&gt;
+                    &lt;td class=&quot;font-medium&quot;&gt;25760 ft&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;hr&gt;
+        &lt;ul class=&quot;list-unstyled row text-center city-weather-days&quot;&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;i class=&quot;wi wi-day-sunny&quot;&gt;&lt;/i&gt;&lt;span&gt;09:30&lt;/span&gt;
+                &lt;h3&gt;70&lt;sup&gt;&deg;&lt;/sup&gt;&lt;/h3&gt;&lt;/li&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;i class=&quot;wi wi-day-cloudy&quot;&gt;&lt;/i&gt;&lt;span&gt;11:30&lt;/span&gt;
+                &lt;h3&gt;72&lt;sup&gt;&deg;&lt;/sup&gt;&lt;/h3&gt;&lt;/li&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;i class=&quot;wi wi-day-hail&quot;&gt;&lt;/i&gt;&lt;span&gt;13:30&lt;/span&gt;
+                &lt;h3&gt;75&lt;sup&gt;&deg;&lt;/sup&gt;&lt;/h3&gt;&lt;/li&gt;
+            &lt;li class=&quot;col&quot;&gt;&lt;i class=&quot;wi wi-day-sprinkle&quot;&gt;&lt;/i&gt;&lt;span&gt;15:30&lt;/span&gt;
+                &lt;h3&gt;76&lt;sup&gt;&deg;&lt;/sup&gt;&lt;/h3&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer text-center">
+            All Rights Reserved by Elegant. Designed and Developed by <a
+                href="https://wrappixel.com">WrapPixel</a>.
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- End Page -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../assets/node_modules/popper/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- apps -->
+	<script src="../main/dist/js/perfect-scrollbar.jquery.min.js"></script>
+	<script src="../main/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../main/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+	<script src="../assets/node_modules/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="../main/dist/js/custom.js"></script>	
+	<script src="highlights/highlight.min.js"></script>
+	<script>
+		hljs.initHighlightingOnLoad();
+	</script>
+    <!-- End JS -->
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.sombras-login{
+
+    box-shadow: 0 4px 8px 0 #000;
+
+}
+
+.imagen-login{
+    background-color: rgba(255, 255, 255, 0.918);
+    background-image: url(./../img/index1.jpg);
+    
+}
