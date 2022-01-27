@@ -16,6 +16,15 @@
     <link rel="stylesheet" type="text/css"
         href="./../../../assets/node_modules/datatables.net-bs4/css/responsive.dataTables.min.css">
     <link href="./../../dist/css/style.min.css" rel="stylesheet">
+    <style>
+
+        #cabecera {
+
+            color: blue;
+
+        }
+
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
