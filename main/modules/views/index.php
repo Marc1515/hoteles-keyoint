@@ -30,6 +30,7 @@ if(isset($_GET['error'])){
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
+    <p style="color: brown;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum cumque vitae commodi mollitia qui voluptatum minima. Sint architecto aspernatur exercitationem quo optio saepe suscipit? Ratione aut ad reprehenderit reiciendis esse?</p>
     <section id="wrapper">
         <div class="login-register imagen-login">
             <div class="login-box card">
