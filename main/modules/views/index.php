@@ -31,7 +31,7 @@ if(isset($_GET['error'])){
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
     <div id="cabecera">
-        Cabecera, mas cambios!
+        Cabecera, cambios desde GitHub!
     </div>
     <section id="wrapper">
         <div class="login-register imagen-login">
