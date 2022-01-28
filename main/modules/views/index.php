@@ -83,6 +83,10 @@ if(isset($_GET['error'])){
                             <div id="recuperarPass" class="collapse">
                                 <button class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Recuperar</button>
                             </div>
+                            <div>
+                                <p>Footer hecho!</p>
+
+                            </div>
                         </div>
                     </form>
                 </div>
